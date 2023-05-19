@@ -175,7 +175,7 @@ input[type="checkbox"] {
 .services-image-one {
     position: absolute;
     right: 0;
-    top: 53rem;
+    top: 49rem;
     width: 60vw;
     z-index: -1;
 }
@@ -185,7 +185,7 @@ input[type="checkbox"] {
     left: -1rem;
     width: 60vw;
     z-index: -1;
-    top: 101rem;
+    top: 95rem;
 }
 
 .graphic-container,
@@ -200,7 +200,7 @@ input[type="checkbox"] {
 .graphic-container {
     margin-bottom: 11rem;
     float: left;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
 }
 
 .website-container {
