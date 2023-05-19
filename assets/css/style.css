@@ -13,7 +13,6 @@ body {
     font-family: 'Montserrat';
     font-weight: 600;
     color: white;
-    background-color: blue;
 }
 
 a {
@@ -36,7 +35,7 @@ input[type="checkbox"] {
     background-size: cover;
     background-image: url("../images/bg.png");
     background-position: center;
-    width: 100vw;
+    width: 100%;
     padding: 3% 7% 18% 7%;
 }
 
@@ -69,8 +68,10 @@ input[type="checkbox"] {
 .main-nav {
     flex-grow: 1;
     padding-left: 15%;
-    padding-right: 15%;
+    padding-right: 10%;
     padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .lang-nav {
@@ -103,6 +104,10 @@ input[type="checkbox"] {
     font-family: "Montserrat";
     font-size: 0.7em;
     font-weight: 600;
+}
+
+.lang-link-active {
+    color: #F5C915;
 }
 
 /* Services content elements */
