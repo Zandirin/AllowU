@@ -56,13 +56,20 @@ input[type="checkbox"] {
 
 .nav-button {
     background-color: #F5C915;
-    border: none;
+    border: 1px solid #F5C915;
     border-radius: 5px;
     cursor: pointer;
     padding: 0.8125rem 0.9375rem;
     font-family: "Montserrat";
     font-size: 0.7725rem;
     font-weight: 600;
+    transition: 400ms;
+}
+
+.nav-button:hover {
+    transition: 400ms;
+    background: transparent;
+    color: #F5C915;
 }
 
 .main-nav {
@@ -104,6 +111,14 @@ input[type="checkbox"] {
     font-family: "Montserrat";
     font-size: 0.7em;
     font-weight: 600;
+    border: 1px solid #fafafa;
+    transition: 400ms;
+}
+
+.header-button:hover {
+    background: transparent;
+    color: #fafafa;
+    transition: 400ms;
 }
 
 .lang-link-active,
@@ -123,6 +138,7 @@ input[type="checkbox"] {
 #services h3 {
     font-size: 3rem;
     width: 55%;
+    font-weight: 600;
 }
 
 .heading-para {
@@ -130,6 +146,7 @@ input[type="checkbox"] {
     border-bottom: 1px solid #F5C915;
     width: 15%;
     margin-top: 4.5rem;
+    margin-bottom: .5%;
 }
 
 #services h4,
@@ -173,7 +190,7 @@ input[type="checkbox"] {
 
 .graphic-container,
 .website-container {
-    border: #F5C915 solid 3px;
+    border: #F5C915 solid 2px;
     border-radius: 0.5rem;
     clear: both;
     padding: 4% 2.5%;
@@ -203,6 +220,7 @@ input[type="checkbox"] {
 #about h3 {
     font-size: 3rem;
     width: 65%;
+    font-weight: 600;
 }
 
 .about-heading-para {
