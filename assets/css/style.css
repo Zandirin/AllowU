@@ -31,6 +31,7 @@ input[type="checkbox"] {
 /* Header content elements */
 
 #header {
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../images/bg.png");
@@ -127,12 +128,26 @@ input[type="checkbox"] {
     color: #F5C915;
 }
 
+.social-icons {
+    position: absolute;
+    display: flex;
+    bottom: 18%;
+    right: 7%;
+    width: 10%;
+    justify-content: space-evenly;
+}
+
+.social-icon {
+    width: 1.875rem;
+}
+
 /* Services content elements */
 
 #services {
     clear: both;
     padding-left: 7%;
     padding-right: 7%;
+    position: relative;
 }
 
 #services h3 {
@@ -164,7 +179,7 @@ input[type="checkbox"] {
 }
 
 .services-desc {
-    font-size: 0.788125rem;
+    font-size: 0.9375rem;
 }
 
 .services-vector {
@@ -175,7 +190,7 @@ input[type="checkbox"] {
 .services-image-one {
     position: absolute;
     right: 0;
-    top: 49rem;
+    top: 0;
     width: 60vw;
     z-index: -1;
 }
@@ -185,7 +200,7 @@ input[type="checkbox"] {
     left: -1rem;
     width: 60vw;
     z-index: -1;
-    top: 95rem;
+    top: 46rem;
 }
 
 .graphic-container,
@@ -229,7 +244,6 @@ input[type="checkbox"] {
 
 .about-container {
     display: flex;
-    padding-left: 3%;
 }
 
 .about-segment {
@@ -256,9 +270,10 @@ input[type="checkbox"] {
 }
 
 .about-title {
-    font-size: .8125;
+    font-size: .8125rem;
     font-weight: 500;
     color: #F5C915;
+    margin-bottom: 1.25rem;
 }
 
 /* Portfolio Section Elements */
@@ -468,4 +483,29 @@ footer {
     background-color: #F5C915;
     color: #303841;
     padding: 5rem 15%;
+    display: flex;
+}
+
+.footer-heading {
+    font-size: 4rem;
+    font-weight: 700;
+    width: 40%;
+}
+
+.footer-right li {
+    list-style: none;
+    color: #303841;
+    margin-bottom: 1rem;
+}
+
+.footer-right li a {
+    color: #303841;
+    font-size: 1.6875rem;
+}
+
+.footer-social-icons {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    margin-top: 1rem;
 }
